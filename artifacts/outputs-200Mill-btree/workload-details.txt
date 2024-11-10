@@ -1,0 +1,73 @@
+#!/bin/bash
+
+# run the experiments (b+ tree)
+
+src="/home/2022/akapur12/comp-513"
+
+workloads=("ycsb" "lognormal" "longitudes" "longlat")
+file_names=("ycsb-200M.bin" "lognormal-190M.bin" "longitudes-200M.bin" "longlat-200M.bin")
+
+# create output directories if they do not exist
+mkdir "${src}/outputs/${workloads[0]}" -p
+mkdir "${src}/outputs/${workloads[1]}" -p
+mkdir "${src}/outputs/${workloads[2]}" -p
+mkdir "${src}/outputs/${workloads[3]}" -p
+
+# record machine details before running anything
+lscpu > "${src}/outputs/cpu_details.txt"
+free -h > "${src}/outputs/memory_details.txt"
+
+# run the workload
+cd ${src}
+echo "Setup done!"
+
+echo "Running workloads now!"
+for num in {0..3}
+do
+    # to save the outputs after the run is completed
+    timestamp_output="${src}/outputs/${workloads[num]}/"`date +%Y-%m-%d-%H-%M-%S`
+    mkdir ${timestamp_output} -p
+
+
+    # change permissions to execute
+    chmod +x "${src}/compiled/${workloads[num]}"
+
+    echo "${workloads[num]}: read-only"
+    # **read only: 0% inserts**
+    ./compiled/${workloads[num]} \
+    --keys_file=./data/${file_names[num]} \
+    --keys_file_type=binary \
+    --init_num_keys=100000000 \
+    --total_num_keys=200000000 \
+    --batch_size=1000 \
+    --insert_frac=0 \
+    --time_limit=1 \
+    > ${timestamp_output}/${workloads[num]}_read_only.txt
+
+    echo "${workloads[num]}: read-heavy"    
+    # **read heavy: 5% inserts**
+    ./compiled/${workloads[num]} \
+    --keys_file=./data/${file_names[num]} \
+    --keys_file_type=binary \
+    --init_num_keys=100000000 \
+    --total_num_keys=200000000 \
+    --batch_size=1000 \
+    --insert_frac=0.05 \
+    --time_limit=20 \
+    --print_batch_stats=true \
+    > ${timestamp_output}/${workloads[num]}_read_heavy.txt
+
+    echo "${workloads[num]}: write-heavy"
+    # **write heavy: 50% inserts**
+    ./compiled/${workloads[num]} \
+    --keys_file=./data/${file_names[num]} \
+    --keys_file_type=binary \
+    --init_num_keys=100000000 \
+    --total_num_keys=200000000 \
+    --batch_size=1000 \
+    --insert_frac=0.5 \
+    --time_limit=20 \
+    --print_batch_stats=true \
+    > ${timestamp_output}/${workloads[num]}_write_heavy.txt
+done
+echo "Runs completed!"

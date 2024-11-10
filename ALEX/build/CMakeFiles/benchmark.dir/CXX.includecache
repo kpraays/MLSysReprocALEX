@@ -1,0 +1,100 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/benchmark/flags.h
+iostream
+-
+map
+-
+sstream
+-
+string
+-
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/benchmark/main.cpp
+../core/alex.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex.h
+iomanip
+-
+flags.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/benchmark/flags.h
+utils.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/benchmark/utils.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/benchmark/utils.h
+zipf.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/benchmark/zipf.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/benchmark/zipf.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex.h
+fstream
+-
+iostream
+-
+stack
+-
+type_traits
+-
+alex_base.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_base.h
+alex_fanout_tree.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_fanout_tree.h
+alex_nodes.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_nodes.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_base.h
+algorithm
+-
+array
+-
+chrono
+-
+cstring
+-
+iostream
+-
+limits
+-
+memory
+-
+random
+-
+set
+-
+string
+-
+utility
+-
+vector
+-
+intrin.h
+-
+x86intrin.h
+-
+bitset
+-
+cassert
+-
+intrin.h
+-
+limits.h
+-
+stdint.h
+-
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_fanout_tree.h
+alex_base.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_base.h
+alex_nodes.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_nodes.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_nodes.h
+alex_base.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/src/core/alex_base.h
+

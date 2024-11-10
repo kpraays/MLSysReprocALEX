@@ -1,0 +1,19 @@
+found flag keys_file = ./data/longitudes-200M.bin
+found flag keys_file_type = binary
+found flag init_num_keys = 500
+found flag total_num_keys = 1000
+found flag batch_size = 1000
+found flag insert_frac = 0.5
+found flag time_limit = 0.1
+found flag print_batch_stats = true
+Bulk load time for 500 keys is:5707
+Batch 1, cumulative ops: 1000
+	batch throughput:	5.142e+07 lookups/sec,	1.107e+07 inserts/sec,	1.822e+07 ops/sec
+	cumulative throughput:	5.142e+07 lookups/sec,	1.107e+07 inserts/sec,	1.822e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 2, cumulative ops: 1500
+	batch throughput:	4.280e+07 lookups/sec,	0.000e+00 inserts/sec,	4.268e+07 ops/sec
+	cumulative throughput:	4.672e+07 lookups/sec,	1.106e+07 inserts/sec,	2.252e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Cumulative stats: 2 batches, 1500 ops (1000 lookups, 500 inserts)
+	cumulative throughput:	4.672e+07 lookups/sec,	1.106e+07 inserts/sec,	2.252e+07 ops/sec

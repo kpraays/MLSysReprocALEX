@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -march=native -Wall -Wextra -O3 -DNDEBUG   CMakeFiles/test_alex.dir/test/unittest_main.cpp.o  -o test_alex 

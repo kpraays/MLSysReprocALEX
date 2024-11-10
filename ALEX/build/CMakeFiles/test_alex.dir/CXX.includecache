@@ -1,0 +1,202 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/core/alex.h
+fstream
+-
+iostream
+-
+stack
+-
+type_traits
+-
+alex_base.h
+../src/core/alex_base.h
+alex_fanout_tree.h
+../src/core/alex_fanout_tree.h
+alex_nodes.h
+../src/core/alex_nodes.h
+
+../src/core/alex_base.h
+algorithm
+-
+array
+-
+chrono
+-
+cstring
+-
+iostream
+-
+limits
+-
+memory
+-
+random
+-
+set
+-
+string
+-
+utility
+-
+vector
+-
+intrin.h
+-
+x86intrin.h
+-
+bitset
+-
+cassert
+-
+intrin.h
+-
+limits.h
+-
+stdint.h
+-
+
+../src/core/alex_fanout_tree.h
+alex_base.h
+../src/core/alex_base.h
+alex_nodes.h
+../src/core/alex_nodes.h
+
+../src/core/alex_map.h
+alex.h
+../src/core/alex.h
+
+../src/core/alex_multimap.h
+alex.h
+../src/core/alex.h
+
+../src/core/alex_nodes.h
+alex_base.h
+../src/core/alex_base.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_alex.h
+doctest.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/doctest.h
+alex.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/alex.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_alex_map.h
+doctest.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/doctest.h
+alex_map.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/alex_map.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_alex_multimap.h
+doctest.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/doctest.h
+alex_multimap.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/alex_multimap.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_main.cpp
+doctest.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/doctest.h
+unittest_alex.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_alex.h
+unittest_alex_map.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_alex_map.h
+unittest_alex_multimap.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_alex_multimap.h
+unittest_nodes.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_nodes.h
+
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/unittest_nodes.h
+doctest.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/doctest.h
+alex_nodes.h
+/mnt/x/Aayush/amscters/McGill/semesters/Fall 2023/COMP513/project/513-project/ALEX/test/alex_nodes.h
+
+doctest/doctest.h
+signal.h
+-
+iosfwd
+-
+cstddef
+-
+ostream
+-
+ciso646
+-
+type_traits
+-
+doctest_fwd.h
+doctest/doctest_fwd.h
+ctime
+-
+cmath
+-
+climits
+-
+math.h
+-
+new
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+limits
+-
+utility
+-
+fstream
+-
+sstream
+-
+iostream
+-
+algorithm
+-
+iomanip
+-
+vector
+-
+atomic
+-
+mutex
+-
+set
+-
+map
+-
+exception
+-
+stdexcept
+-
+csignal
+-
+cfloat
+-
+cctype
+-
+cstdint
+-
+sys/types.h
+-
+unistd.h
+-
+sys/sysctl.h
+-
+AfxWin.h
+-
+windows.h
+-
+io.h
+-
+sys/time.h
+-
+unistd.h
+-
+

@@ -1,0 +1,55 @@
+found flag keys_file = ../data/ycsb-200M.bin
+found flag keys_file_type = binary
+found flag init_num_keys = 500
+found flag total_num_keys = 1000
+found flag batch_size = 1000
+found flag insert_frac = 0.05
+found flag time_limit = 20
+found flag print_batch_stats = true
+Bulk load time for 500 keys is:7700
+Batch 1, cumulative ops: 1000
+	batch throughput:	3.682e+07 lookups/sec,	6.494e+06 inserts/sec,	2.985e+07 ops/sec
+	cumulative throughput:	3.682e+07 lookups/sec,	6.494e+06 inserts/sec,	2.985e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 2, cumulative ops: 2000
+	batch throughput:	3.357e+07 lookups/sec,	8.197e+06 inserts/sec,	2.907e+07 ops/sec
+	cumulative throughput:	3.512e+07 lookups/sec,	7.246e+06 inserts/sec,	2.946e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 3, cumulative ops: 3000
+	batch throughput:	3.055e+07 lookups/sec,	7.246e+06 inserts/sec,	2.632e+07 ops/sec
+	cumulative throughput:	3.345e+07 lookups/sec,	7.246e+06 inserts/sec,	2.833e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 4, cumulative ops: 4000
+	batch throughput:	3.393e+07 lookups/sec,	1.064e+07 inserts/sec,	3.058e+07 ops/sec
+	cumulative throughput:	3.357e+07 lookups/sec,	7.874e+06 inserts/sec,	2.886e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 5, cumulative ops: 5000
+	batch throughput:	3.725e+07 lookups/sec,	1.000e+07 inserts/sec,	3.279e+07 ops/sec
+	cumulative throughput:	3.425e+07 lookups/sec,	8.224e+06 inserts/sec,	2.957e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 6, cumulative ops: 6000
+	batch throughput:	3.598e+07 lookups/sec,	1.087e+07 inserts/sec,	3.226e+07 ops/sec
+	cumulative throughput:	3.452e+07 lookups/sec,	8.571e+06 inserts/sec,	2.999e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 7, cumulative ops: 7000
+	batch throughput:	3.626e+07 lookups/sec,	8.929e+06 inserts/sec,	3.145e+07 ops/sec
+	cumulative throughput:	3.476e+07 lookups/sec,	8.621e+06 inserts/sec,	3.019e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 8, cumulative ops: 8000
+	batch throughput:	3.322e+07 lookups/sec,	9.434e+06 inserts/sec,	2.950e+07 ops/sec
+	cumulative throughput:	3.456e+07 lookups/sec,	8.715e+06 inserts/sec,	3.010e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 9, cumulative ops: 9000
+	batch throughput:	3.493e+07 lookups/sec,	6.849e+06 inserts/sec,	2.899e+07 ops/sec
+	cumulative throughput:	3.460e+07 lookups/sec,	8.459e+06 inserts/sec,	2.997e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 10, cumulative ops: 10000
+	batch throughput:	3.393e+07 lookups/sec,	8.621e+06 inserts/sec,	2.959e+07 ops/sec
+	cumulative throughput:	3.453e+07 lookups/sec,	8.475e+06 inserts/sec,	2.993e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Batch 11, cumulative ops: 10950
+	batch throughput:	3.209e+07 lookups/sec,	0.000e+00 inserts/sec,	3.199e+07 ops/sec
+	cumulative throughput:	3.430e+07 lookups/sec,	8.460e+06 inserts/sec,	3.010e+07 ops/sec
+	Number of inner nodes in the B+ tree:3
+Cumulative stats: 11 batches, 10950 ops (10450 lookups, 500 inserts)
+	cumulative throughput:	3.430e+07 lookups/sec,	8.460e+06 inserts/sec,	3.010e+07 ops/sec

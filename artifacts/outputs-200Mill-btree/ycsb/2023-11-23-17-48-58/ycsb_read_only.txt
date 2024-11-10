@@ -1,0 +1,10 @@
+found flag keys_file = ./data/ycsb-200M.bin
+found flag keys_file_type = binary
+found flag init_num_keys = 500
+found flag total_num_keys = 1000
+found flag batch_size = 1000
+found flag insert_frac = 0
+found flag time_limit = 0.1
+Bulk load time for 500 keys is:5846
+Cumulative stats: 95823 batches, 95823000 ops (95823000 lookups, 0 inserts)
+	cumulative throughput:	5.895e+07 lookups/sec,	0.000e+00 inserts/sec,	5.889e+07 ops/sec

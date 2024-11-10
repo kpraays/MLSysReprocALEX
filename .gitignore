@@ -1,0 +1,20 @@
+# ignore automake files
+stx-btree/Makefile
+stx-btree/autom4te.cache
+stx-btree/config.log
+stx-btree/config.status
+*/Makefile
+*/.deps
+*.o
+
+# ignore binaries
+stx-btree/testsuite/testsuite
+stx-btree/wxbtreedemo/wxBTreeDemo
+stx-btree/speedtest/speedtest
+stx-btree/speedtest/speedtest-tune
+
+# ignore data files
+stx-btree/run-benchmark/data/
+
+# ignore bash scripts
+stx-btree/run-benchmark/bash-scripts/

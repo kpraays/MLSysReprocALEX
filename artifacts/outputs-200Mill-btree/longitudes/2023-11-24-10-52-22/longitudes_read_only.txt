@@ -1,0 +1,10 @@
+found flag keys_file = ./data/longitudes-200M.bin
+found flag keys_file_type = binary
+found flag init_num_keys = 100000000
+found flag total_num_keys = 200000000
+found flag batch_size = 1000
+found flag insert_frac = 0
+found flag time_limit = 1
+Bulk load time for 100000000 keys is:4.34379e+09
+Cumulative stats: 98951 batches, 98951000 ops (98951000 lookups, 0 inserts)
+	cumulative throughput:	2.976e+06 lookups/sec,	0.000e+00 inserts/sec,	2.975e+06 ops/sec
