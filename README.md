@@ -17,7 +17,7 @@ We reproduced the following experiments from the ALEX paper and compared them wi
 4. Bulkloading time
 
 ## Who did it?
-It was a collaboration between: Aayush Kapur and Rahma Nouji
+It was a collaboration between: Aayush Kapur and Rahma Nouaji
 
 
 ## What is ALEX? 
